@@ -1,0 +1,95 @@
+/*
+scheda2
+*/
+
+@media only screen and (max-width: 775px) {
+    .presentantionTextDiv {
+        width: 45cqw;
+        height: 45cqw;
+    }
+
+    .presentantionTextDiv h1 {
+        font-size: 4.5cqw;
+    }
+    
+    .presentantionTextDiv p{ 
+        font-size: 2.25cqw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .presentantionTextDiv {
+        width: 80cqw;
+        height: 100cqw;
+        top: 150vh;
+        left: 7.5cqw;
+        transform: rotate(0deg);
+    }
+
+    .presentantionTextDiv h1 {
+        font-size: 6.5cqw;
+        transform: rotate(0deg);
+    }
+    
+    .presentantionTextDiv p{ 
+        font-size: 4.5cqw;
+        transform: rotate(0deg);
+    }
+
+    .presentantionImg2Div {
+        display: none;
+    }
+
+    .presentantionDiv {
+        background-image: url("./img/img2.webp");
+        background-size: cover;
+    }
+}
+
+/*
+scheda3
+*/
+
+@media only screen and (max-width: 775px) {
+    .presentantionTextDiv2 {
+        width: 45cqw;
+        height: 45cqw;
+    }
+
+    .presentantionTextDiv2 h1 {
+        font-size: 4.5cqw;
+    }
+    
+    .presentantionTextDiv2 p{ 
+        font-size: 2.25cqw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .presentantionTextDiv2 {
+        width: 80cqw;
+        height: 100cqw;
+        top: 250vh;
+        left: 7.5cqw;
+        transform: rotate(0deg);
+    }
+
+    .presentantionTextDiv2 h1 {
+        font-size: 6.5cqw;
+        transform: rotate(0deg);
+    }
+    
+    .presentantionTextDiv2 p{ 
+        font-size: 4.5cqw;
+        transform: rotate(0deg);
+    }
+
+    .presentantionImg3Div {
+        display: none;
+    }
+
+    .presentantionDiv2 {
+        background-image: url("./img/img3.webp");
+        background-size: cover;
+    }
+}

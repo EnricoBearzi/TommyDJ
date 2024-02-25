@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*
+res 700px
+    Scrollbar
+*/
+
+body::-webkit-scrollbar {
+    /*
+        larghezza della scrollbar
+    */
+    width: 100%;
+}
+
+body::-webkit-scrollbar-track { 
+    /*
+        "sfondo" della scrollbar
+    */
+    background-color: #2a2a2a00;
+}
+
+body::-webkit-scrollbar-thumb {
+    /*
+        "cursore della scrollbar"
+    */
+    background-color: white;
+    border-radius: 10em;
+}
+
+/*
+    Generale
+*/
+
+.viewDiv {
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #1a1a1a;
+    font-family: "Rubik", sans-serif;
+    cursor: url("./cur/cur1054.cur"), auto;
+}
+
+/*
+    Presentazione1
+*/
+
+.presentantionDiv {
+    display: flex;
+    color: white;
+}
+
+.presentantionTextDiv {
+    position: absolute;
+    background-image: linear-gradient(to right bottom, #0066ff, #0f51df, #113cc0, #0b28a1, #001484);
+    width: 30cqw;
+    height: 30cqw;
+    padding: 3%;
+    top: 150vh;
+    bottom: 0;
+    left: 15%;
+    margin: auto;
+    border-radius: 1cqw;
+    transform: rotate(5deg);
+}
+
+.presentantionTextDiv h1 {
+    font-size: 3cqw;
+    transform: rotate(-5deg);
+    transition: 1s all;
+}
+
+.presentantionTextDiv p{ 
+    font-size: 1.5cqw;
+    transform: rotate(-5deg);
+    transition: 1s all;
+}
+
+.presentantionImg2Div {
+    margin-left: auto;
+    width: 60%;
+    background-image: url("./img/img2.webp");
+    background-size: cover;
+}
+
+/*
+    Presentazione2
+*/
+
+.presentantionTextDiv2 {
+    position: absolute;
+    background-image: linear-gradient(to right bottom, #24d300, #1cde36, #13e953, #07f46d, #00ff85);
+    color: white;
+    width: 30cqw;
+    height: 30cqw;
+    padding: 3%;
+    top: 250vh;
+    bottom: 0;
+    left: 45%;
+    margin: auto;
+    border-radius: 1cqw;
+    transform: rotate(-5deg);
+}
+
+.presentantionTextDiv2 h1 {
+    font-size: 3cqw;
+    transform: rotate(5deg);
+    transition: 1s all;
+}
+
+.presentantionTextDiv2 p{ 
+    font-size: 1.5cqw;
+    transform: rotate(5deg);
+    transition: 1s all;
+}
+
+.presentantionImg3Div {
+    height: 100vh;
+    margin-right: auto;
+    width: 60%;
+    background-image: url("./img/img3.webp");
+    background-size: cover;
+}
+
+/*
+scrollAnimation
+*/
+
+.scrollAnimation1 {
+    opacity: 0;
+    left: 0;
+    transform: rotate(-10deg);
+}
+
+.scrollAnimationTrue1 {
+    transition: 1s;
+    left: 15%;
+    opacity: 1;
+    transform: rotate(5deg);
+}
+
+.scrollAnimation2 {
+    opacity: 0;
+    left: 60%;
+    transform: rotate(10deg);
+}
+
+.scrollAnimationTrue2 {
+    transition: all 1s;
+    left: 45%;
+    opacity: 1;
+    transform: rotate(-5deg);
+}

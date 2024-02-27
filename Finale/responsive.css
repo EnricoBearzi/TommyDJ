@@ -2,7 +2,7 @@
 scheda2
 */
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 1024px) {
     .presentantionTextDiv {
         width: 45cqw;
         height: 45cqw;
@@ -17,7 +17,7 @@ scheda2
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     .presentantionTextDiv {
         width: 80cqw;
         height: 100cqw;
@@ -50,7 +50,7 @@ scheda2
 scheda3
 */
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 1024px) {
     .presentantionTextDiv2 {
         width: 45cqw;
         height: 45cqw;
@@ -65,7 +65,7 @@ scheda3
     }
 }
 
-@media only screen and (max-width: 375px) {/*445*/
+@media only screen and (max-width: 600px) {
     .presentantionTextDiv2 {
         width: 80cqw;
         height: 100cqw;

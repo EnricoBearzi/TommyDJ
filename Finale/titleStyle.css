@@ -82,6 +82,7 @@
 .no, .words{
     background: -webkit-linear-gradient( #c7462a, #ff6f02);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 49%;
     height: 100%;
@@ -192,7 +193,7 @@
   }
 
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 1024px) {
     .title {
         font-size: 7.5cqw;
     }
@@ -206,7 +207,7 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     .home{
         height: 100vh;
         width: 100%;
@@ -230,7 +231,7 @@
     }
     
     .title {
-        color: black;
+        color: rgb(255, 255, 255);
         font-size: 13cqw;
         &:before{
             display: none;

@@ -101,7 +101,7 @@ body {
     padding: 3%;
     top: 250vh;
     bottom: 0;
-    left: 45%;
+    float: right;
     margin: auto;
     border-radius: 1cqw;
     transform: rotate(-5deg);
@@ -146,13 +146,13 @@ scrollAnimation
 
 .scrollAnimation2 {
     opacity: 0;
-    left: 60%;
+    right: 5%;
     transform: rotate(10deg);
 }
 
 .scrollAnimationTrue2 {
     transition: all 1s;
-    left: 45%;
+    right: 15%;
     opacity: 1;
     transform: rotate(-5deg);
 }
